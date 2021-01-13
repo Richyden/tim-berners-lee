@@ -2,7 +2,7 @@
 
 body{
 	font-family: Verdana,Geneva,sans-serif;
-	background-color: #ededed;
+	background-color: #e5e5e3;
 	text-align: center;
 	color: #7d7d7d;
 }
@@ -11,7 +11,7 @@ body{
 
 .intro{
 	background-color: white;
-	height: 360px;
+	height: 375px;
 	width: 550px;
 
 	margin-left: auto;
@@ -35,6 +35,7 @@ body{
 
 .intro p{
 	text-align: justify;
+	padding-bottom: 5px;
 }
 
 h1{
@@ -42,12 +43,28 @@ h1{
 	opacity: 120%;
 }
 
+.intro h2{
+	font-size: larger;
+	font-style: normal;
+}
+
+
+.intro a{
+	text-decoration: none;
+	color: white;
+	background-color: #d33250;
+	padding: 10px;
+
+	border: solid 0.5px #7d7d7d;
+	border-radius: 5px;
+}
+
 
 /* LIEN */
 
 .link{
 	background-color: white;
-	height: 100px;
+	height: 130px;
 	width: 580px;
 
 	margin-left: auto;
@@ -63,10 +80,95 @@ h1{
 	list-style-type: none;
 	display: flex;
 	align-items: center;
-	padding-top: 15px;
+	padding-top: 30px;
 	justify-content: center;
 }
 
 .link li{
-	margin-right: 15px;
+	margin-right: 35px;
+
+}
+
+.link a{
+	color: #bbbabc;
+	text-decoration: none;
+}
+
+.link i{
+	margin-bottom: 5px;
+}
+
+.logo{
+	font-size: small;
+}
+
+
+/*  MOVIES  */
+
+.movies{
+	background-color: white;
+	height: 800px;
+	width: 580px;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	margin-top: 20px;
+
+	border: solid 0.5px #7d7d7d;
+	border-radius: 5px;
+}
+
+.movies img{
+	height: 150px;
+	width: 100px;
+
+	padding: 25px;
+}
+
+.movies p{
+	text-align: justify;
+}
+
+.movies h2{
+	margin-bottom: 50px;
+}
+
+#his{
+	background-color: #c3c2c6;
+}
+
+/*  MOVIE 1  */
+
+.mov1{
+	display: flex;
+}
+
+.art1{
+	padding-right: 25px;
+}
+
+
+/*  MOVIE 2  */
+
+.mov2{
+	display: flex;
+	margin-top: 30px;
+}
+
+
+.art2{
+	padding-right: 25px;
+}
+
+
+/*   MOVIE 3   */
+
+.mov3{
+	display: flex;
+	margin-top: 30px;
+}
+
+.art3{
+	padding-right: 25px;
 }
